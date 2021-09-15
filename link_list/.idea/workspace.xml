@@ -14,7 +14,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48ca4f7b-d2c4-4cf5-93e7-e256c5b2c12b" name="Changes" comment="单链表" />
+    <list default="true" id="48ca4f7b-d2c4-4cf5-93e7-e256c5b2c12b" name="Changes" comment="单链表">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,7 +71,7 @@
       <updated>1631497436954</updated>
       <workItem from="1631497438507" duration="7410000" />
       <workItem from="1631608558494" duration="3710000" />
-      <workItem from="1631691791384" duration="4967000" />
+      <workItem from="1631691791384" duration="5587000" />
     </task>
     <task id="LOCAL-00001" summary="单链表">
       <created>1631697087145</created>
@@ -78,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631697087145</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="单链表">
+      <created>1631697730509</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1631697730509</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,7 +113,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.c</url>
-          <line>174</line>
+          <line>176</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
