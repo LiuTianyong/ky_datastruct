@@ -30,6 +30,7 @@ void modifIndex(LinkList L,int i,int e);
 // 删除第i个值
 void deleteIndex(LinkList L,int i);
 
+
 // 表的长度
 int getLength(LinkList L);
 
@@ -65,6 +66,7 @@ int main() {
     printf("表的长度：%d\n", getLength(L));
     return 0;
 }
+
 
 
 // 表的长度
