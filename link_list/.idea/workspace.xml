@@ -51,11 +51,6 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="link_list" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="link_list" TARGET_NAME="link_list" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="link_list" RUN_TARGET_NAME="link_list">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -74,6 +69,7 @@
       <workItem from="1631608558494" duration="3710000" />
       <workItem from="1631691791384" duration="5794000" />
       <workItem from="1631784064345" duration="50000" />
+      <workItem from="1632725691777" duration="1336000" />
     </task>
     <task id="LOCAL-00001" summary="单链表">
       <created>1631697087145</created>
