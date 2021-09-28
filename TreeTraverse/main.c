@@ -19,6 +19,7 @@ void LevelTraversal(BiTree b);
 
 void CreateBiTree(BiTree *T);
 
+int Treeheight(BiTNode *T);
 
 /*
  * ABDG##H###CE#I##F##
@@ -36,10 +37,25 @@ int main() {
     printf("\n");
     LevelTraversal(T);
 
+    printf("\nÊ÷µÄÉî¶È £º%d ", Treeheight(T));
     return 0;
 }
 
-void PreOrderTraverse(BiTree T)             //äºŒå‰æ ‘çš„å…ˆåºéåŽ†
+int Treeheight(BiTNode *T){
+    int LD, RD;
+    if(T == NULL)
+    {
+        return 0;
+    }
+    else
+    {
+        LD = Treeheight(T->lchild);
+        RD = Treeheight(T->rchild);
+        return (LD >= RD? LD:RD) + 1;
+    }
+}
+
+void PreOrderTraverse(BiTree T)             //¶þ²æÊ÷µÄÏÈÐò±éÀú
 {
     if (T == NULL)
         return;
@@ -47,7 +63,8 @@ void PreOrderTraverse(BiTree T)             //äºŒå‰æ ‘çš„å…ˆåºéåŽ†
     PreOrderTraverse(T->lchild);
     PreOrderTraverse(T->rchild);
 }
-void InOrderTraverse(BiTree T)              //äºŒå‰æ ‘çš„ä¸­åºéåŽ†
+
+void InOrderTraverse(BiTree T)              //¶þ²æÊ÷µÄÖÐÐò±éÀú
 {
     if (T == NULL)
         return;
@@ -55,7 +72,8 @@ void InOrderTraverse(BiTree T)              //äºŒå‰æ ‘çš„ä¸­åºéåŽ†
     printf("%c ", T->data);
     InOrderTraverse(T->rchild);
 }
-void PostOrderTraverse(BiTree T)            //åŽåºéåŽ†
+
+void PostOrderTraverse(BiTree T)            //ºóÐò±éÀú
 {
     if (T == NULL)
         return;
@@ -63,21 +81,22 @@ void PostOrderTraverse(BiTree T)            //åŽåºéåŽ†
     PostOrderTraverse(T->rchild);
     printf("%c ", T->data);
 }
+
 void LevelTraversal(BiTree b)
 {
     if(b)
     {
-        //å®šä¹‰é˜Ÿåˆ—
+        //¶¨Òå¶ÓÁÐ
         BiTNode * queue[MaxSize];
         int top=0;
         queue[top] = b;
 
         int i = 0;
 
-        //åªè¦é˜Ÿåˆ—é‡Œæœ‰å…ƒç´ 
+        //Ö»Òª¶ÓÁÐÀïÓÐÔªËØ
         while(i<=top)
         {
-            //å°†å·¦å³å­æ ‘åŠ å…¥é˜Ÿåˆ—
+            //½«×óÓÒ×ÓÊ÷¼ÓÈë¶ÓÁÐ
             if(queue[i]->lchild)
             {
                 top++;
@@ -91,13 +110,12 @@ void LevelTraversal(BiTree b)
             i++;
         }
 
-        //çŽ°åœ¨è¿™ä¸ªé˜Ÿåˆ—æŒ‰å±‚æ¬¡é¡ºåºå®¹çº³äº†äºŒå‰æ ‘çš„æ¯ä¸ªèŠ‚ç‚¹
+        //ÏÖÔÚÕâ¸ö¶ÓÁÐ°´²ã´ÎË³ÐòÈÝÄÉÁË¶þ²æÊ÷µÄÃ¿¸ö½Úµã
         for(i=0;i<=top;i++)
         {
-            //æŒ¨ä¸ªæ‰“å‡ºæ¥å³å¯
+            //°¤¸ö´ò³öÀ´¼´¿É
             printf("%c ", queue[i]->data);
         }
-        //æˆ‘æ¯”è¾ƒæ‡’æ‰€ä»¥å°±æ²¡å†™å‡ºé˜Ÿï¼Œè¿™å…¶å®žå½“æˆä¸ªæ ˆä¹Ÿå¯ä»¥
     }
 }
 
