@@ -29,19 +29,20 @@ int main() {
     BiTree T;
     CreateBiTree(&T);
 
+    printf("递归前序遍历：");
     PreOrderTraverse(T);
-    printf("\n");
+    printf("\n递归中序遍历：");
     InOrderTraverse(T);
-    printf("\n");
+    printf("\n递归后序遍历：");
     PostOrderTraverse(T);
-    printf("\n");
+    printf("\n层序遍历：");
     LevelTraversal(T);
 
     printf("\n树的深度 ：%d ", Treeheight(T));
     return 0;
 }
 
-int Treeheight(BiTNode *T){
+int Treeheight(BiTree T){
     int LD, RD;
     if(T == NULL)
     {
