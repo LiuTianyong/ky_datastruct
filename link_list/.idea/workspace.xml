@@ -14,14 +14,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48ca4f7b-d2c4-4cf5-93e7-e256c5b2c12b" name="Changes" comment="单链表">
-      <change beforePath="$PROJECT_DIR$/../line_list/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../line_list/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+    <list default="true" id="48ca4f7b-d2c4-4cf5-93e7-e256c5b2c12b" name="Changes" comment="原地逆序">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/link_list.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/link_list.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../单链表.md" beforeDir="false" afterPath="$PROJECT_DIR$/../单链表.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/link_list.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/link_list.dir/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/link_list.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/link_list.dir/objects.a" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,11 +57,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -80,7 +71,7 @@
       <workItem from="1631691791384" duration="5794000" />
       <workItem from="1631784064345" duration="50000" />
       <workItem from="1632725691777" duration="1336000" />
-      <workItem from="1633505937695" duration="1692000" />
+      <workItem from="1633505937695" duration="1727000" />
     </task>
     <task id="LOCAL-00001" summary="单链表">
       <created>1631697087145</created>
@@ -103,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631698247919</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="原地逆序">
+      <created>1633507672890</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1633507672890</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +121,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="单链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="单链表" />
+    <MESSAGE value="原地逆序" />
+    <option name="LAST_COMMIT_MESSAGE" value="原地逆序" />
   </component>
 </project>

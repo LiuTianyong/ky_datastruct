@@ -1,0 +1,3 @@
+"D:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\double_linklist.dir/objects.a
+D:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\double_linklist.dir/objects.a @CMakeFiles\double_linklist.dir\objects1.rsp
+D:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\double_linklist.dir/objects.a -Wl,--no-whole-archive -o double_linklist.exe -Wl,--out-implib,libdouble_linklist.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\double_linklist.dir\linklibs.rsp
