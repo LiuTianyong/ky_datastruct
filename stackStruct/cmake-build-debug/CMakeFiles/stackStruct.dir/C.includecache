@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/tianyongliu/workspace/clanguage/ky_datastruct/stackStruct/main.c
+stdio.h
+-
+stdlib.h
+/Users/tianyongliu/workspace/clanguage/ky_datastruct/stackStruct/stdlib.h
+
