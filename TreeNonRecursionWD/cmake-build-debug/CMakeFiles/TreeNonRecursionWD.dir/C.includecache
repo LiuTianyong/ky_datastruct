@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/tianyongliu/workspace/clanguage/ky_datastruct/TreeNonRecursionWD/main.c
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+
