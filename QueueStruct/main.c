@@ -42,11 +42,18 @@ int main() {
     EnQueue(q,288);
     EnQueue(q,35);
     EnQueue(q,98);
-    EnQueue(q,383);
+    EnQueue(q,3);
+    EnQueue(q,83);
+    EnQueue(q,99);
+    EnQueue(q,555);
 
     Element e = DeQueue(q);
     printf("%d\n",e);
 
+    for (; q->rear != q->fornt ; ) {
+        printf("%d ", DeQueue(q));
+    }
+    printf("\n");
     int res = isEmpty(q);
     if (res){
         printf("为空");

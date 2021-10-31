@@ -57,8 +57,11 @@ int main() {
     PushStack(s,50);
     Pop(s);
     PushStack(s,70);
-    Pop(s);
     Element e = getTop(s);
-    printf("%d",e);
+    printf("%d\n",e);
+
+    for (;s->top != -1;) {
+        printf("%d ", Pop(s));
+    }
     return 0;
 }

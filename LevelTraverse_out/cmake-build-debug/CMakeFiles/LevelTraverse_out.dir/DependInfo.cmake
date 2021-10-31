@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/datastruct/LevelTraverse_out/main.cpp" "E:/datastruct/LevelTraverse_out/cmake-build-debug/CMakeFiles/LevelTraverse_out.dir/main.cpp.obj"
+  "/Users/tianyongliu/workspace/clanguage/ky_datastruct/LevelTraverse_out/main.cpp" "/Users/tianyongliu/workspace/clanguage/ky_datastruct/LevelTraverse_out/cmake-build-debug/CMakeFiles/LevelTraverse_out.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/LevelTraverse_out.dir/main.cpp.obj"
-  "LevelTraverse_out.exe"
-  "LevelTraverse_out.exe.manifest"
+  "CMakeFiles/LevelTraverse_out.dir/main.cpp.o"
+  "LevelTraverse_out"
   "LevelTraverse_out.pdb"
-  "libLevelTraverse_out.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
