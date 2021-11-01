@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-E:/datastruct/BubSort/main.c
+/Users/tianyongliu/workspace/clanguage/ky_datastruct/BubSort/main.c
 stdio.h
 -
 stdlib.h

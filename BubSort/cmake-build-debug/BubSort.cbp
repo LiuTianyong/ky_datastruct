@@ -8,76 +8,78 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="E:/datastruct/BubSort/cmake-build-debug"/>
+				<Option working_dir="/Users/tianyongliu/workspace/clanguage/ky_datastruct/BubSort/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;E:/datastruct/BubSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;E:/datastruct/BubSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;E:/datastruct/BubSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;E:/datastruct/BubSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="BubSort">
-				<Option output="E:/datastruct/BubSort/cmake-build-debug/BubSort.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/datastruct/BubSort/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;E:/datastruct/BubSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 BubSort"/>
-					<CompileFile command="D:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;E:/datastruct/BubSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;E:/datastruct/BubSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;E:/datastruct/BubSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="BubSort/fast">
-				<Option output="E:/datastruct/BubSort/cmake-build-debug/BubSort.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/datastruct/BubSort/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;E:/datastruct/BubSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 BubSort/fast"/>
-					<CompileFile command="D:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;E:/datastruct/BubSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;E:/datastruct/BubSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;E:/datastruct/BubSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="E:/datastruct/BubSort/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="D:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;E:/datastruct/BubSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;E:/datastruct/BubSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;E:/datastruct/BubSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;E:/datastruct/BubSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tianyongliu/workspace/clanguage/ky_datastruct/BubSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tianyongliu/workspace/clanguage/ky_datastruct/BubSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tianyongliu/workspace/clanguage/ky_datastruct/BubSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tianyongliu/workspace/clanguage/ky_datastruct/BubSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="E:/datastruct/BubSort/cmake-build-debug"/>
+				<Option working_dir="/Users/tianyongliu/workspace/clanguage/ky_datastruct/BubSort/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;E:/datastruct/BubSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;E:/datastruct/BubSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;E:/datastruct/BubSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;E:/datastruct/BubSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tianyongliu/workspace/clanguage/ky_datastruct/BubSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tianyongliu/workspace/clanguage/ky_datastruct/BubSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tianyongliu/workspace/clanguage/ky_datastruct/BubSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tianyongliu/workspace/clanguage/ky_datastruct/BubSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/tianyongliu/workspace/clanguage/ky_datastruct/BubSort/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tianyongliu/workspace/clanguage/ky_datastruct/BubSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tianyongliu/workspace/clanguage/ky_datastruct/BubSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tianyongliu/workspace/clanguage/ky_datastruct/BubSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tianyongliu/workspace/clanguage/ky_datastruct/BubSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BubSort">
+				<Option output="/Users/tianyongliu/workspace/clanguage/ky_datastruct/BubSort/cmake-build-debug/BubSort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tianyongliu/workspace/clanguage/ky_datastruct/BubSort/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tianyongliu/workspace/clanguage/ky_datastruct/BubSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 BubSort"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tianyongliu/workspace/clanguage/ky_datastruct/BubSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tianyongliu/workspace/clanguage/ky_datastruct/BubSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tianyongliu/workspace/clanguage/ky_datastruct/BubSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BubSort/fast">
+				<Option output="/Users/tianyongliu/workspace/clanguage/ky_datastruct/BubSort/cmake-build-debug/BubSort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tianyongliu/workspace/clanguage/ky_datastruct/BubSort/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tianyongliu/workspace/clanguage/ky_datastruct/BubSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 BubSort/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tianyongliu/workspace/clanguage/ky_datastruct/BubSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tianyongliu/workspace/clanguage/ky_datastruct/BubSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tianyongliu/workspace/clanguage/ky_datastruct/BubSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/datastruct/BubSort/main.c">
+		<Unit filename="/Users/tianyongliu/workspace/clanguage/ky_datastruct/BubSort/main.c">
 			<Option target="BubSort"/>
 		</Unit>
-		<Unit filename="E:/datastruct/BubSort/CMakeLists.txt">
+		<Unit filename="/Users/tianyongliu/workspace/clanguage/ky_datastruct/BubSort/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

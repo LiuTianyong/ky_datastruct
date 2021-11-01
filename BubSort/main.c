@@ -17,11 +17,11 @@ void display(int array[], int maxlen)
 
 void BubSort(int *arr,int n)
 {
-    for (int i=0; i<n-1; ++i)
+    for (int i=0; i < n; ++i)
     {
         for (int j=0; j<n-1-i; ++j)
         {
-            if (arr[j] > arr[j+1])          // Ä¬ÈÏ´ÓĞ¡µ½´ó  Èç¹ûÒªÇó´Ó´óµ½Ğ¡  ¸Ä³É< ºÅ¼´¿É
+            if (arr[j] > arr[j+1])          // é»˜è®¤ä»å°åˆ°å¤§  å¦‚æœè¦æ±‚ä»å¤§åˆ°å°  æ”¹æˆ< å·å³å¯
             {
                 int temp = arr[j];
                 arr[j] = arr[j+1];
@@ -31,19 +31,19 @@ void BubSort(int *arr,int n)
     }
 }
 
-// Ö÷º¯Êı
+// ä¸»å‡½æ•°
 int main()
 {
-    int array[Max_Size] = {99,85,25,16,34,23,49,95,17,61};
+    int array[Max_Size] = {99,85,25,16,34,23,49,95,17,105};
     int maxlen = Max_Size;
 
-    printf("ÅÅĞòÇ°µÄÊı×é\n");
+    printf("æ’åºå‰çš„æ•°ç»„\n");
     display(array, maxlen);
 
     BubSort(array,Max_Size);
 
 
-    printf("ÅÅĞòºóµÄÊı×é\n");
+    printf("æ’åºåçš„æ•°ç»„\n");
     display(array, maxlen);
 
     return 0;

@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "E:/datastruct/BubSort/main.c" "E:/datastruct/BubSort/cmake-build-debug/CMakeFiles/BubSort.dir/main.c.obj"
+  "/Users/tianyongliu/workspace/clanguage/ky_datastruct/BubSort/main.c" "/Users/tianyongliu/workspace/clanguage/ky_datastruct/BubSort/cmake-build-debug/CMakeFiles/BubSort.dir/main.c.o"
   )
-set(CMAKE_C_COMPILER_ID "GNU")
+set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
