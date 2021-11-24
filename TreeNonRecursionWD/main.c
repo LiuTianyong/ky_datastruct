@@ -128,9 +128,13 @@ void PostOrderTraverse(BiTree T,Stack *S)
         }
     }
 }
+
+// ABDG##H###CE#I##F##
+// 5421##3###86#7##9##
 int main(int argc, char const *argv[]) {
     BiTree T;
     Stack S;
+    printf("输入一棵树：\n");
     CreateBiTree(&T);
     PreOrderTraverse(T,&S);printf("\n");
     InOrderTraverse(T,&S);printf("\n");
