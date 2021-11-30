@@ -35,6 +35,7 @@ bool isEmpty(Stack *S)
     if(S->top == -1)return true;
     else return false;
 }
+
 /*创建二叉树*/
 void CreateBiTree(BiTree *T)
 {
@@ -54,6 +55,7 @@ void CreateBiTree(BiTree *T)
         CreateBiTree(&(*T)->rchild);
     }
 }
+
 /*前序遍历*/
 void PreOrderTraverse(BiTree T,Stack *S)
 {

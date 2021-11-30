@@ -15,6 +15,24 @@ void InitQueue(Queue &q);
 BiTree DeQueue(Queue &q);
 int IsQueueEmpty(Queue &q);
 
+/*
+ * 树的叶子节点和总节点数 求取
+ */
+void TreeLevNumSumNum(BiTree T,int *levNum,int *sumNum){
+    if (T == NULL){
+        return;
+    }
+
+    (*sumNum)++;
+    if (T->lchild == NULL && T->rchild == NULL){
+        (*levNum)++;
+    }
+
+    TreeLevNumSumNum(T->lchild,levNum,sumNum);
+    TreeLevNumSumNum(T->rchild,levNum,sumNum);
+
+}
+
 int CountNumDegree1(BiTree T){
 
     int count = 0;
@@ -119,5 +137,10 @@ int main() {
     CountNumDegree0(T);
     CountNumDegree1(T);
     CountNumDegree2(T);
+
+    int levNum = 0,sumNode = 0;
+    TreeLevNumSumNum(T,&levNum,&sumNode);
+    printf("%d  %d",levNum,sumNode);
+
     return 0;
 }

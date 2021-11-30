@@ -42,9 +42,20 @@ int main() {
 
     printf("二叉排序树的逆序：\n");
     ReverseOrder(T);
+    printf("\n树的高度：%d", Treeheight(T));
     return 0;
 }
 
+int Treeheight(BiTree T){
+    int LD=0,RD=0;
+    if (T == NULL){
+        return 0;
+    }else{
+        LD = Treeheight(T->lchild);
+        RD = Treeheight(T->rchild);
+        return (LD>RD?LD:RD) + 1;
+    }
+}
 void CreateBiTree(BiTree *T) {
     char ch;
     scanf("%c", &ch);
